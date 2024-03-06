@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+
+ function check() {
+	 if(document.frm.id.value == ""){
+		 
+	 }
+ }

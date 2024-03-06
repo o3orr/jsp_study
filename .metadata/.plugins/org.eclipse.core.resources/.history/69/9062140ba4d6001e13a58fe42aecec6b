@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+
+// 유효성 체크
+ function check() {
+	 if(document.frm.id.value == ""){
+		 
+	 }
+ }

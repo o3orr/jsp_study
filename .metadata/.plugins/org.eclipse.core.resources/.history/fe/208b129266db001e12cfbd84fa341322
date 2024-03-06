@@ -1,0 +1,25 @@
+package com.saeyan.dao;
+
+import java.sql.Connection;
+
+// 싱글톤으로 사용
+// 데이터베이스 연결하는 중복코드 제거하려고 사용
+public class MemberDAO {
+	
+	private static MemberDAO instance = new MemberDAO();
+	
+	private MemberDAO() {
+		
+	}
+	
+	public static MemberDAO getInstance() {
+		return instance;
+	}
+	
+	public Connection getConnection() {
+		String url ="jdbc:oracle:thin:@localhost:1521:xe";
+		String user = "c##ezen";
+		String password = "1234";
+		Class.forName("oracle.jdbc:driver.OracleDriver");
+	}
+}
