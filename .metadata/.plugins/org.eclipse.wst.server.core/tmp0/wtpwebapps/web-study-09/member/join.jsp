@@ -19,7 +19,10 @@
          <tr>
             <td>아이디</td>
             <td><input type="text" name="userid" size="20"  id="userid"> * 
+            
+            	<!-- 아이디 중복체크 안했을때 확인하기 위해서 사용하는 hidden 입력 -->
             	<input type="hidden" name="reid" size="20"> 
+            	<!-- 아이디 중복체크하는 버튼 idCheck()사용-->
             	<input type="button" value="중복 체크" onclick="idCheck()"></td>
          </tr>
          <tr>
@@ -44,8 +47,10 @@
             	<input type="radio" name="admin" value="1"> 관리자</td>
          </tr>
          <tr>
-            <td colspan="2" align="center"><input type="submit" value="확인" onclick="return joinCheck()">
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="취소">
+            <td colspan="2" align="center">
+            <input type="submit" value="확인" onclick="return joinCheck()">
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <input type="reset" value="취소">
             </td>
          </tr>
          <tr>

@@ -13,6 +13,7 @@
       <table>
          <tr>
             <td>아이디</td>
+            <!-- ${userid}는 회원가입하고나서 아이디를 자동으로 로그인창에 띄워주기 위해서 사용 -->
             <td><input type="text" name="userid" value="${userid}"></td>
          </tr>
          <tr>
