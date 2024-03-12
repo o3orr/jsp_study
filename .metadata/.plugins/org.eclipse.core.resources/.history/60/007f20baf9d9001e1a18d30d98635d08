@@ -1,9 +1,0 @@
-package uni01;
-
-public class MemberVO {
-	
-	String id;
-	String name;
-	String pwd;
-
-}

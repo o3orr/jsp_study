@@ -24,7 +24,13 @@
 			</tr>
 			<tr>
 				<td>내용</td>
-				<td></td>
+				<td><textarea name="content" rows="10" style="width:50%;"></textarea></td>
+			</tr>
+			<tr>	
+				<td><input type="submit" value="전송"></td>
+			</tr>
+			<tr>
+				<td colspan="2">${message}</td>
 			</tr>
 			
 		</table>

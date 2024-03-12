@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%
 
-	response.sendRedirect("write.do");
+	response.sendRedirect("list.do");
 %>
 <!DOCTYPE html>
 <html>

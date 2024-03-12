@@ -169,7 +169,7 @@ public class BoardDao {
 		int result = -1;
 		
 		String sql = "update board set name=?, title=?,content=?, "
-				+ "date=? where no = ?";
+				+ "day=? where no = ?";
 		
 		try {
 			con = getConnection();
