@@ -105,15 +105,26 @@
 
 
 
-				
 
 
-				
 
-				<Context docBase="jsp-10" path="/jsp-10" reloadable="true" source="org.eclipse.jst.jee.server:jsp-10">
+
+
+
+				<Context docBase="web-study-11" path="/web-study-11" reloadable="true" source="org.eclipse.jst.jee.server:web-study-11">
 					<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="c##ezen"/>
 				</Context>
-			</Host>
+				<Context docBase="Challenge11" path="/Challenge11" reloadable="true" source="org.eclipse.jst.jee.server:Challenge11">
+					<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="1234" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="c##ezen"/>
+				</Context>
+				 
+					
+					
+					
+				<Context docBase="web-study-09" path="/web-study-09" reloadable="true" source="org.eclipse.jst.jee.server:web-study-09"/>
+				<Context docBase="jsp_study-009" path="/jsp_study-009" reloadable="true" source="org.eclipse.jst.jee.server:jsp_study-009"/>
+				<Context docBase="CHAT3" path="/CHAT3" reloadable="true" source="org.eclipse.jst.jee.server:CHAT3"/>
+			<Context docBase="chat" path="/chat" reloadable="true" source="org.eclipse.jst.jee.server:chat"/><Context docBase="ReviewQA" path="/ReviewQA" reloadable="true" source="org.eclipse.jst.jee.server:ReviewQA"/></Host>
 		</Engine>
 	</Service>
 </Server>
